@@ -1,0 +1,445 @@
+/* fonts: 
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif; */
+
+#image-container {
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgb(0,0,0);
+    padding: 0px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+#nav-container {
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    border-bottom: 1px solid black;
+}
+
+#content-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+#interviews-container {
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+#hex-container {
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.half {
+    width: 48%;
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.hex-image {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.info {
+    width: 64.6667%;
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.picture {
+    width: 31.3333%;
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.interview-image {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.content {
+    width: 96%;
+    margin: 2%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+audio {
+    width: 600px;
+    display: block;
+    margin: 2% auto;
+}
+
+#nav-title {
+    width: 29%;
+    margin: auto;
+    margin-left: 1%;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: 'oswaldlight';
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav{
+    position: relative;
+    width:70%;
+	box-sizing:border-box;
+	text-align:right;
+}
+
+nav p {
+    display:inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 1% 5%;
+    font-family: 'oswaldlight';
+    font-size: 1.1em;
+    text-indent: 0;
+}
+
+nav p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dropbtn {
+    display: inline;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+}
+
+.dropdown {  
+    position: relative;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    text-align: left;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body, html {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'oswaldlight';
+}
+
+h2 {
+    font-family: 'oswaldlight';
+    text-align: center;
+}
+
+h3 {
+    font-family: 'merriweatherlight';
+    text-align: left;
+    font-size: 1em;
+    margin: 2px; 
+}
+
+p {
+    text-indent: 3em;
+    font-family: 'merriweatherregular';
+    line-height: 175%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.1em;
+}
+
+.f-content {
+    width: 96%;
+    margin: 2%;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'merriweatherlight';
+}
+
+li {
+    font-family: 'merriweatherregular';
+    line-height: 175%;
+    font-size: 1.1em;
+}
+
+li.list-first {
+    list-style-type: upper-roman;
+}
+
+li.list-second {
+    list-style-type: upper-alpha;
+}
+
+li.list-third {
+    list-style-type: decimal;
+}
+
+li.list-fourth {
+    list-style-type: lower-alpha;
+}
+
+li.list-fifth {
+    list-style-type: lower-roman;
+}
+
+.csl-bib-body {
+    font-size: 1.1em;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.ppm-graphic {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+em {
+    font-family: 'merriweatheritalic';
+}
+
+.hero-image {    
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/hero-clc-banner-short.jpg");
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: 'merriweatherheavy';
+    src: url('../fonts/merriweather-black-webfont.eot');
+    src: url('../fonts/merriweather-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-black-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-black-webfont.woff') format('woff'),
+         url('../fonts/merriweather-black-webfont.ttf') format('truetype'),
+         url('../fonts/merriweather-black-webfont.svg#merriweatherheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merriweatherbold';
+    src: url('../fonts/merriweather-bold-webfont.eot');
+    src: url('../fonts/merriweather-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-bold-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-bold-webfont.woff') format('woff'),
+         url('../fonts/merriweather-bold-webfont.ttf') format('truetype'),
+         url('../fonts/merriweather-bold-webfont.svg#merriweatherbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merriweatherbold_italic';
+    src: url('../fonts/merriweather-bolditalic-webfont.eot');
+    src: url('../fonts/merriweather-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/merriweather-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merriweatherheavy_italic';
+    src: url('../fonts/merriweather-heavyitalic-webfont.eot');
+    src: url('../fonts/merriweather-heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-heavyitalic-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-heavyitalic-webfont.woff') format('woff'),
+         url('../fonts/merriweather-heavyitalic-webfont.ttf') format('truetype'),
+         url('../fonts/merriweather-heavyitalic-webfont.svg#merriweatherheavy_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merriweatheritalic';
+    src: url('../fonts/merriweather-italic-webfont.eot');
+    src: url('../fonts/merriweather-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-italic-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-italic-webfont.woff') format('woff'),
+         url('../fonts/merriweather-italic-webfont.ttf') format('truetype'),
+         url('../fonts/merriweather-italic-webfont.svg#merriweatheritalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merriweatherlight';
+    src: url('../fonts/merriweather-light-webfont.eot');
+    src: url('../fonts/merriweather-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-light-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-light-webfont.woff') format('woff'),
+         url('../fonts/merriweather-light-webfont.ttf') format('truetype'),
+         url('../fonts/merriweather-light-webfont.svg#merriweatherlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merriweatherlight_italic';
+    src: url('../fonts/merriweather-lightitalic-webfont.eot');
+    src: url('../fonts/merriweather-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/merriweather-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/merriweather-lightitalic-webfont.svg#merriweatherlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merriweatherregular';
+    src: url('../fonts/merriweather-regular-webfont.eot');
+    src: url('../fonts/merriweather-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather-regular-webfont.woff2') format('woff2'),
+         url('../fonts/merriweather-regular-webfont.woff') format('woff'),
+         url('../fonts/merriweather-regular-webfont.ttf') format('truetype'),
+         url('../fonts/merriweather-regular-webfont.svg#merriweatherregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oswaldbold';
+    src: url('../fonts/oswald-bold-webfont.eot');
+    src: url('../fonts/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-bold-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-bold-webfont.woff') format('woff'),
+         url('../fonts/oswald-bold-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-bold-webfont.svg#oswaldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('../fonts/oswald-light-webfont.eot');
+    src: url('../fonts/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-light-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-light-webfont.woff') format('woff'),
+         url('../fonts/oswald-light-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-light-webfont.svg#oswaldlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('../fonts/oswald-regular-webfont.eot');
+    src: url('../fonts/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-regular-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-regular-webfont.woff') format('woff'),
+         url('../fonts/oswald-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-regular-webfont.svg#oswaldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
