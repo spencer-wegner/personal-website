@@ -52,6 +52,21 @@ font-family: 'Merriweather', serif; */
     align-content: stretch;
 }
 
+#download-podcast-container {
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
 #interviews-container {
     width: 100%;
     margin: 0px auto;
@@ -87,6 +102,15 @@ font-family: 'Merriweather', serif; */
     margin: 1%;
     padding: 1%;
     box-sizing: border-box;
+}
+
+.quarters {
+    width: 22%;
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    text-indent: 0;
+    text-align: center;
 }
 
 .hex-image {
