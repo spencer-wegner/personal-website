@@ -5,4 +5,19 @@ function shiftContent(item, title) {
     }
     document.getElementById(item).style.display = "block";
     document.getElementById("nav-title").innerHTML = title;
+    /* hide dropdown panel */
+    document.getElementById("dropdown-content").style.display = "none";
+    dropdown = false;
+}
+
+dropdown = false;
+function showDropdownContent() {
+    if (dropdown == false) {
+        document.getElementById("dropdown-content").style.display = "block";
+        dropdown = true;
+    }
+    else {
+        document.getElementById("dropdown-content").style.display = "none";
+        dropdown = false;
+    }
 }

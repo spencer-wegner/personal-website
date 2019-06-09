@@ -37,11 +37,11 @@
                     Home &amp; About
                 </p>
                 <div class="dropdown">
-                    <p class="dropbtn">
+                    <p onclick="showDropdownContent()" class="dropbtn">
                         Lenses
                         <i class="fa fa-caret-down"></i> 
                     </p>
-                    <div class="dropdown-content">
+                    <div id="dropdown-content" class="dropdown-content">
                         <p onclick="shiftContent('individual', 'Individual Lens')">
                             Individual
                         </p>
@@ -1426,8 +1426,11 @@
             </div>
 
             <div class="f-content">
-                <footer>
+                <footer id="large-screen-footer">
                     Spencer Wegner &nbsp;|&nbsp; Complex Leadership Challenges &nbsp;|&nbsp; Spring 2019
+                </footer>
+                <footer id="small-screen-footer">
+                    Spencer Wegner </br></br> Complex Leadership Challenges </br></br> Spring 2019
                 </footer>
             </div>
 
