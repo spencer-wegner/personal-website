@@ -482,7 +482,16 @@ em {
 
 }
 
+@media all and (min-width:1600px){
+    .hero-image {    
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/hero-clc-banner.jpg");
+    }
+}
+
 @media all and (min-width:700px) and (max-width:1000px){
+    .hero-image {    
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/hero-clc-banner-short-1400px.jpg");
+    }
 
     #nav-container {
         margin: 5px auto;
@@ -505,6 +514,9 @@ em {
 }
 
 @media all and (max-width:700px){
+    .hero-image {    
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/hero-clc-banner-short-1000px.jpg");
+    }
 
     #large-screen-footer {
         display: none;
