@@ -537,4 +537,74 @@ em {
     nav p {
         display: block;
     }
+
+    .picture {
+        width: 98%;
+        margin: 1%;
+        padding: 1%;
+        box-sizing: border-box;
+    }
+
+    .info {
+        width: 98%;
+        margin: 1%;
+        padding: 1%;
+        box-sizing: border-box;
+    }
+
+    #info-1 {
+        order: 1;
+    }
+
+    #pic-1 {
+        order: 2;
+    }
+
+    #info-2 {
+        order: 3;
+    }
+
+    #pic-2 {
+        order: 4;
+    }
+
+    #info-3 {
+        order: 5;
+    }
+
+    #pic-3 {
+        order: 6;
+    }
+
+    #info-4 {
+        order: 7;
+    }
+
+    #pic-4 {
+        order: 8;
+    }
+
+    #info-5 {
+        order: 9;
+    }
+
+    #pic-5 {
+        order: 10;
+    }
+
+    #info-6 {
+        order: 11;
+    }
+
+    #pic-6 {
+        order: 12;
+    }
+
+    #info-7 {
+        order: 13;
+    }
+
+    #pic-7 {
+        order: 14;
+    }
 }
