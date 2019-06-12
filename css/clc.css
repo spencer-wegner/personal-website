@@ -165,10 +165,11 @@ audio {
 
 a {
     color: rgb(0, 0, 0);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
+    color: rgb(47, 47, 197);
     text-decoration: underline;
 }
 
